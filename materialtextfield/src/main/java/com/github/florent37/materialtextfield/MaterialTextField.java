@@ -120,11 +120,7 @@ public class MaterialTextField extends FrameLayout {
                 .translationY(-labelTopMargin)
                 .setDuration(ANIMATION_DURATION);
 
-            ViewCompat.animate(image)
-                .alpha(1f)
-                .scaleX(1f)
-                .scaleY(1f)
-                .setDuration(ANIMATION_DURATION);
+          
 
             if (editText != null) {
                 editText.requestFocus();
